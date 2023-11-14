@@ -11,25 +11,26 @@
     
 </head>
 <body>
-    <hearder>
-    <nav class="mobile-nav">
-        <div class="m-nav-wrapper">
-            <div class="mobile-nav-bar">
-                <a href="index.html"><img src="images/Logo-white.png" class="nav-logo"></a>
-                <a href="#" class="hamburger">
-                    <i class="fa-solid fa-bars fa-lg icon--white"></i>
-                    <i class="fa-solid fa-xmark fa-lg icon--white" style="display:none"></i>
-                </a>
+
+    <header>
+        <nav class="mobile-nav">
+            <div class="m-nav-wrapper">
+                <div class="mobile-nav-bar">
+                    <a href="index.html"><img src="images/Logo-white.png" class="nav-logo"></a>
+                    <a href="#" class="hamburger">
+                        <i class="fa-solid fa-bars fa-lg icon--white"></i>
+                        <i class="fa-solid fa-xmark fa-lg icon--white" style="display:none"></i>
+                    </a>
+                </div>
+                <ul style="display: none;">
+                    <li><a class="mobile-nav-link link-home active" href="index.html">HOME<div class="point-dot"></div></a></li>
+                    <li><a class="mobile-nav-link link-about" href="about.html">ABOUT</a></li>
+                    <li><a class="mobile-nav-link link-project" href="project.html">PROJECT</a></li>
+                </ul>
             </div>
-            <ul style="display: none;">
-                <li><a class="mobile-nav-link link-home" href="index.html">HOME<div class="point-dot"></div></a></li>
-                <li><a class="mobile-nav-link link-about" href="about.html">ABOUT</a></li>
-                <li><a class="mobile-nav-link link-project" href="project.html">PROJECT</a></li>
-            </ul>
         </div>
-    </div>
-    </nav>
-    </hearder>
+        </nav>
+    </header>
 
     <div class="container">
         <section class="home-banner">
@@ -38,7 +39,7 @@
                 <a class="logo" href="https://spline.design"></a>
             </div>
             <div class="grid banner-wrapper">
-                <div class="col-12 banner-content ">
+                <div class="col-12 banner-content">
                     <div class="banner-title">
                         <h1>SORA NOH</h1>
                         <h2>FRONT-END</br>DEVELOPER<div class="point-dot"></div></h2>
@@ -73,7 +74,7 @@
                                         <li>CSS</li>
                                         <li>JS</li>
                                     </ul>
-                                    <a href="#"><i class="fa-solid fa-arrow-right project-arrow"></i></a>
+                                    <a href="project-detail.html"><i class="fa-solid fa-arrow-right project-arrow"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +193,7 @@
             </div>
 
         </section>
-        <section class="grid contact">
+        <!-- <section class="grid contact">
             <div class="col-12 contact-wrapper">
                 <div class="contect-title">
                     <h3>LET'S GET</h3>
@@ -207,18 +208,35 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
     <footer>
-        <div class="footer-wrapper">
-            <div class="social-media-icons">
-                <a href="#"><i class="fa-brands fa-linkedin fa-lg icon--white"></i></a>
-                <a href="#"><i class="fa-solid fa-at fa-lg icon--white"></i></a>
-                <a href="#"><i class="fa-brands fa-github fa-lg icon--white"></i></a>
+        <section class="grid contact">
+            <div class="col-12 contact-wrapper">
+                <div class="contect-title">
+                    <h3>LET'S GET</h3>
+                    <h3>CONNECTED<div class="point-dot point-dot-blue"></div></h3>
+                </div>
+                <div class="contact-message">
+                    <p class="body--gray">Feel free to reach out to me with any questions about me and my projects! If you would like to work with me I'm available for you!</p>
+                    <div class="social-media-icons">
+                        <a href="http://www.linkedin.com/in/sora-noh" target="new"><i class="fa-brands fa-linkedin fa-lg icon--gray"></i></a>
+                        <a href="#"><i class="fa-solid fa-at fa-lg icon--gray"></i></a>
+                        <a href="http://github.com/nosora0422" target="new"><i class="fa-brands fa-github fa-lg icon--gray"></i></a>
+                    </div>
+                </div>
             </div>
+            <div class="col-12 footer-wrapper">
+                <!-- <div class="social-media-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin fa-lg icon--white"></i></a>
+                    <a href="#"><i class="fa-solid fa-at fa-lg icon--white"></i></a>
+                    <a href="#"><i class="fa-brands fa-github fa-lg icon--white"></i></a>
+                </div> -->
+    
+                <p class="copyright"> &copy; Sora Noh 2023</p>
+            </div>
+        </section>
 
-            <p class="copyright"> &copy; Sora Noh 2023</p>
-        </div>
     </footer>
 
     <script
